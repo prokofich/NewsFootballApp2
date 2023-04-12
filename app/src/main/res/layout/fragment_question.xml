@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    android:layout_height="match_parent"
+    tools:context=".view.QuestionFragment">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="69dp"
+            android:id="@+id/id_question_back"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="WIN"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:textStyle="italic"
+            android:text="SPORT"
+            android:textSize="30dp"
+            android:textColor="#ff7700"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="вопрос тренеру"
+        android:textSize="40dp"
+        android:layout_height="109dp"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="373dp"
+        android:layout_height="82dp" >
+
+        <EditText
+            android:layout_width="293dp"
+            android:background="@color/white"
+            android:id="@+id/id_question_edittext"
+            android:textColor="#ff7700"
+            android:hint="задайте свой вопрос"
+            android:layout_height="match_parent"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:background="#ff7700"
+            android:id="@+id/id_question_button_go"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="история ответов"
+        android:textColor="@color/white"
+        android:textSize="23dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:id="@+id/id_question_textview_question"
+        android:layout_height="60dp"
+        android:textColor="#ff7700"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/id_question_textview_response"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".view.RegistrationFragment">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:orientation="horizontal"
+        android:id="@+id/id_registration_image"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="WIN"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:textStyle="italic"
+            android:text="SPORT"
+            android:textSize="30dp"
+            android:textColor="#ff7700"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Начало тренировки"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:id="@+id/id_registration_name"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="имя"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:layout_height="80dp"/>
+    <EditText
+        android:id="@+id/id_registration_height"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="рост"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:layout_height="80dp"/>
+    <EditText
+        android:id="@+id/id_registration_weight"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="вес"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:layout_height="80dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/id_registration_go"
+        android:layout_width="250dp"
+        android:background="#49b8c9"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="начать"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:layout_height="80dp"/>
+
+
+
+</LinearLayout>

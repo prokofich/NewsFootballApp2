@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    android:layout_height="match_parent"
+    tools:context=".view.MenuFragment">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/id_registration_image"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="WIN"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:textStyle="italic"
+            android:text="SPORT"
+            android:textSize="30dp"
+            android:textColor="#ff7700"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:background="#49b8c9"
+        android:id="@+id/id_menu_workout"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="тренировка"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:id="@+id/id_menu_analytics"
+        android:background="#49b8c9"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="аналитика"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:id="@+id/id_menu_question_coach"
+        android:layout_gravity="center"
+        android:background="#49b8c9"
+        android:gravity="center"
+        android:text="вопрос тренеру"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:id="@+id/id_menu_settings"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#49b8c9"
+        android:text="настройки"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="цель на день:"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="25000 POINTS"
+        android:textColor="#ff7700"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="347dp"
+        android:id="@+id/id_menu_progress_points"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="прогресс 15000 P"
+        android:textColor="#ff7700"
+        android:textSize="30dp" />
+
+
+
+
+
+
+
+</LinearLayout>

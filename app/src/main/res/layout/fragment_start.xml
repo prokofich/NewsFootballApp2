@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".view.StartFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="260dp"
+        android:layout_height="114dp">
+
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="WIN"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:textStyle="italic"
+            android:text="SPORT"
+            android:textSize="60dp"
+            android:textColor="#ff7700"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
